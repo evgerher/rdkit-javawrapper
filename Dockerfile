@@ -53,7 +53,6 @@ ENV RDBASE=/rdkit
 ENV LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$RDBASE/lib
 ENV PYTHONPATH=$PYTHONPATH:$RDBASE
 ENV JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
-ENV LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/rdkit/gmwrapper
 ENV CPLUS_INCLUDE_PATH="$CPLUS_INCLUDE_PATH:/usr/include/python3.7/"
 
 # RDK_OPTIMIZE_NATIVE=ON assumes container will be run on the same architecture on which it is built
@@ -79,11 +78,11 @@ RUN cmake -Wno-dev \
 RUN make -j $(nproc) \
  && make install
 
-FROM debian:buster AS rdkit-env
+#FROM debian:buster AS rdkit-env
 
 # Copy rdkit installation from rdkit-build-env
-COPY --from=rdkit-build-env /usr/lib/libRDKit* /usr/lib/
-COPY --from=rdkit-build-env /usr/lib/cmake/rdkit/* /usr/lib/cmake/rdkit/
-COPY --from=rdkit-build-env /usr/share/RDKit /usr/share/RDKit
-COPY --from=rdkit-build-env /usr/include/rdkit /usr/include/rdkit
-COPY --from=rdkit-build-env /usr/lib/python3/dist-packages/rdkit /usr/lib/python3/dist-packages/rdkit
+#COPY --from=rdkit-build-env /usr/lib/libRDKit* /usr/lib/
+#COPY --from=rdkit-build-env /usr/lib/cmake/rdkit/* /usr/lib/cmake/rdkit/
+#COPY --from=rdkit-build-env /usr/share/RDKit /usr/share/RDKit
+#COPY --from=rdkit-build-env /usr/include/rdkit /usr/include/rdkit
+#COPY --from=rdkit-build-env /usr/lib/python3/dist-packages/rdkit /usr/lib/python3/dist-packages/rdkit

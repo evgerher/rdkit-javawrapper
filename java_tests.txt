@@ -1,0 +1,81 @@
+Test project /rdkit/build
+      Start 157: JavaAromaticTests
+ 1/38 Test #157: JavaAromaticTests ................   Passed    1.96 sec
+      Start 158: JavaAtomPairsTests
+ 2/38 Test #158: JavaAtomPairsTests ...............   Passed    0.39 sec
+      Start 159: JavaBasicMoleculeTests
+ 3/38 Test #159: JavaBasicMoleculeTests ...........   Passed    0.29 sec
+      Start 160: JavaBasicMolecule2Tests
+ 4/38 Test #160: JavaBasicMolecule2Tests ..........   Passed    0.26 sec
+      Start 161: JavaChemAtomTests
+ 5/38 Test #161: JavaChemAtomTests ................   Passed    0.26 sec
+      Start 162: JavaChemBondTests
+ 6/38 Test #162: JavaChemBondTests ................   Passed    0.27 sec
+      Start 163: JavaChemReactionTests
+ 7/38 Test #163: JavaChemReactionTests ............   Passed    0.30 sec
+      Start 164: JavaChemSmartsTests
+ 8/38 Test #164: JavaChemSmartsTests ..............   Passed    0.27 sec
+      Start 165: JavaChemTests
+ 9/38 Test #165: JavaChemTests ....................   Passed    0.28 sec
+      Start 166: JavaChemv2Tests
+10/38 Test #166: JavaChemv2Tests ..................   Passed    0.28 sec
+      Start 167: JavaConformerTests
+11/38 Test #167: JavaConformerTests ...............   Passed    0.25 sec
+      Start 168: JavaDescriptorTests
+12/38 Test #168: JavaDescriptorTests ..............   Passed    0.26 sec
+      Start 169: JavaDistanceGeometryTests
+13/38 Test #169: JavaDistanceGeometryTests ........   Passed    0.52 sec
+      Start 170: JavaErrorHandlingTests
+14/38 Test #170: JavaErrorHandlingTests ...........   Passed    0.26 sec
+      Start 171: JavaFingerprintsTests
+15/38 Test #171: JavaFingerprintsTests ............   Passed    0.26 sec
+      Start 172: JavaForceFieldsTests
+16/38 Test #172: JavaForceFieldsTests .............   Passed    0.36 sec
+      Start 173: JavaHManipulationsTests
+17/38 Test #173: JavaHManipulationsTests ..........   Passed    0.25 sec
+      Start 174: JavaLipinskiTests
+18/38 Test #174: JavaLipinskiTests ................   Passed    0.39 sec
+      Start 175: JavaPicklingTests
+19/38 Test #175: JavaPicklingTests ................   Passed    0.27 sec
+      Start 176: JavaSmilesCreationTests
+20/38 Test #176: JavaSmilesCreationTests ..........   Passed    0.29 sec
+      Start 177: JavaSmilesDetailsTests
+21/38 Test #177: JavaSmilesDetailsTests ...........   Passed    0.30 sec
+      Start 178: JavaSmilesTests
+22/38 Test #178: JavaSmilesTests ..................   Passed    0.28 sec
+      Start 179: JavaSuppliersTests
+23/38 Test #179: JavaSuppliersTests ...............   Passed    0.28 sec
+      Start 180: JavaTrajectoryTests
+24/38 Test #180: JavaTrajectoryTests ..............   Passed    0.46 sec
+      Start 181: JavaWrapperTests
+25/38 Test #181: JavaWrapperTests .................   Passed    0.29 sec
+      Start 182: JavaAvalonTests
+26/38 Test #182: JavaAvalonTests ..................   Passed    0.28 sec
+      Start 183: JavaInchiTests
+27/38 Test #183: JavaInchiTests ...................   Passed    0.27 sec
+      Start 184: JavaChemTransformsTests
+28/38 Test #184: JavaChemTransformsTests ..........   Passed    0.27 sec
+      Start 185: JavaFMCSTests
+29/38 Test #185: JavaFMCSTests ....................   Passed    0.27 sec
+      Start 186: JavaPDBTests
+30/38 Test #186: JavaPDBTests .....................   Passed    0.26 sec
+      Start 187: JavaSequenceTests
+31/38 Test #187: JavaSequenceTests ................   Passed    0.35 sec
+      Start 188: JavaAlignTests
+32/38 Test #188: JavaAlignTests ...................   Passed    0.28 sec
+      Start 189: JavaMolQueryTests
+33/38 Test #189: JavaMolQueryTests ................   Passed    0.29 sec
+      Start 190: JavaFilterCatalogTests
+34/38 Test #190: JavaFilterCatalogTests ...........   Passed    0.28 sec
+      Start 191: JavaSubstructLibraryTests
+35/38 Test #191: JavaSubstructLibraryTests ........   Passed    0.31 sec
+      Start 192: JavaRGroupDecompositionTests
+36/38 Test #192: JavaRGroupDecompositionTests .....   Passed    0.24 sec
+      Start 193: JavaDiversityPickerTests
+37/38 Test #193: JavaDiversityPickerTests .........   Passed    0.25 sec
+      Start 194: JavaBitOpsTests
+38/38 Test #194: JavaBitOpsTests ..................   Passed    0.25 sec
+
+100% tests passed, 0 tests failed out of 38
+
+Total Test time (real) =  12.90 sec
