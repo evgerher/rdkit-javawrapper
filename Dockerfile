@@ -78,6 +78,8 @@ RUN cmake -Wno-dev \
 RUN make -j $(nproc) \
  && make install
 
+RUN ctest -R Java
+
 #FROM debian:buster AS rdkit-env
 
 # Copy rdkit installation from rdkit-build-env
